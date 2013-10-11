@@ -79,6 +79,7 @@ body {
 }
 /* end navigation bar*/
 
+
 #content {
     width: 100%;
     height: auto;
@@ -86,13 +87,58 @@ body {
     position: relative;
     float: left;;
 }
-
+/*main*/
 #main {
     width: 75%;
     height: 100%;
     position: relative;
     float: left;
 }
+
+.innerwrapper {
+    margin: 20px 0px 20px 20px;
+}
+
+h1 {
+    text-shadow:2px 2px #e67b09;
+    font-size: 48px;
+    font-family: "Arial Black", Gadget, sans-serif;
+    font-weight: 100;
+}
+
+h2 {
+    font-family: "Arial Black", Gadget, sans-serif;
+}
+
+.p02 {
+    font-size: 12px;
+}
+
+.p03 {
+    display: block;
+    background-color: #ddd;
+    border-top: 2px solid #000;
+    border-bottom: 2px solid #000;
+    font-size: 24px;
+    font-family: "Courier New", Courier, monospace;
+    font-weight: bold;
+    margin: 10px 20px;
+}
+
+.picandtext {
+    width: 100%
+}
+
+.picandtext img {
+    float: left;
+    margin-right: 20px;
+}
+
+.picandtext p {
+    display: inline-block;
+    float: right;
+}
+
 /*rightmenu*/
 #rightmenu {
     width: 25%;
@@ -143,17 +189,22 @@ body {
 #mainmenu li:hover div.submenu {
     display: inherit;
 }
-
-/*.submenu li {
-    
-}
 /*end rigthmenu*/
 
+/*footer*/
 #footer {
     width: 100%;
     height: 60px;
     background-color: #000;
-    color: #fff;
-    position:relative;
-    float:left;
+    float: left;  
 }
+
+#footer p {
+    color: #fff;
+    font-family: "Arial Black", Gadget, sans-serif;
+    font-size: 12px;
+    line-height: 12px;
+    float: right;
+    margin: 24px 20px 24px 0px;
+}
+/*end of footer*/
