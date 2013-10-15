@@ -204,21 +204,13 @@ blockquote {
     border-radius: 10px;
 }    
 
-
-/*#mainmenu li h3:hover {
-    background-color: #008db8;
-    cursor: pointer;
-}*/
-
-/*.menuimg:hover {
-    background-color: #008db8;
-    cursor: pointer;
-    opacity: 0;
-}*/
-
 #mainmenu li li {
     list-style: decimal;
     border:none;
+}
+
+#mainmenu li:hover{
+	cursor:pointer;
 }
 
 .submenu {
@@ -226,12 +218,8 @@ blockquote {
     display: none;
 }
 
-/*.IsOpen .submenu {  
-    display: block;
-}*/
-
-#mainmenu li.IsOpen {
-    display: inherit;
+.no-js #mainmenu li:hover .submenu{
+	display:block;
 }
 /*end rightmenu*/
 

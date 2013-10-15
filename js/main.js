@@ -6,7 +6,7 @@ jQuery(document).ready(function(){
 			jQuery(this).find('.submenu').hide(500);
 		}
 		else {
-			jQuery('#mainmenu li .submenu').hide();
+			jQuery('#mainmenu li .submenu').hide(500);
 			jQuery('#mainmenu li').removeClass("IsOpen");
 			jQuery(this).toggleClass("IsOpen");
 			jQuery(this).find('.submenu').show(500);
